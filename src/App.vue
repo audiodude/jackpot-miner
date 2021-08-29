@@ -1,5 +1,5 @@
 <template>
-  <div>Jackpot Miner</div>
+  <HelloWorld></HelloWorld>
 </template>
 
 <script lang="ts">

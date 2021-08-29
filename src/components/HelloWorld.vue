@@ -1,5 +1,8 @@
 <template>
-  <div class="hello">Hello Jackpot Miner!</div>
+  <div>
+    <div class="hello">Hello Jackpot Miner!</div>
+    <div>{{ count }}</div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -12,6 +15,10 @@ import { Options, Vue } from 'vue-class-component';
 })
 export default class HelloWorld extends Vue {
   msg!: string;
+
+  get count(): number {
+    return this.$store.state.count;
+  }
 }
 </script>
 
