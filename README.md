@@ -1,5 +1,9 @@
 # jackpot-miner
 
+## Under development
+
+The currently committed version comes directly from the Vue CLI generated code.
+
 ## Project setup
 ```
 yarn install
