@@ -2,7 +2,7 @@
 
 ## Under development
 
-The currently committed version comes directly from the Vue CLI generated code.
+The current version is simply the Vue CLI generated code with template code removed.
 
 ## Project setup
 ```
